@@ -1,0 +1,3 @@
+[submodule "apps/bitcoinjs-ui"]
+	path = apps/bitcoinjs-ui
+	url = https://github.com/bitcoincoretech/bitcoinjs-ui.git
