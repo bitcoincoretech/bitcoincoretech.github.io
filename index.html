@@ -1,13 +1,89 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Bitcoin Resources</title>
-  </head>
-  <body>
-    <p>Bitcoin Core Tech Resources</p>
-    <br>
-    <a href="apps/first-app/index.html">Fist App</a>
-    <br>
-    <a href="apps/bitcoinjs-ui/index.html">BitcoinJS UI</a>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bitcoin Core Tech & Docs</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+  <link rel="stylesheet" href="resources/css/scribbler-global.css">
+  <link rel="stylesheet" href="resources/css/scribbler-landing.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo"></div>
+    <ul class="menu">
+      <div class="menu__item toggle"><span></span></div>
+      <li class="menu__item"><a href="https://github.com/bitcoincoretech" target="_" class="link link--dark"><i
+            class="fa fa-github"></i>Github</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <h1 class="hero__title">Bitcoin Core Tech & Docs</h1>
+    <p class="hero__description">Run Your Own Node</p>
+  </div>
+  <div class="hero__terminal">
+    <pre>
+        <!-- Place your demo code here -->
+        <code class="shell-session demo">bitcoincoretech ~ $ </code>
+      </pre>
+  </div>
+  <div class="wrapper">
+    <div class="feature">
+      <div class="feature__item">
+        <h3 class="section__title">The White Paper</h3>
+        <a href="https://github.com/bitcoincoretech/bitcoinbook/blob/develop/appdx-bitcoinwhitepaper.asciidoc"
+          target="_" class="link link--light">English</a>
+        <span>/</span>
+        <a href="https://github.com/bitcoincoretech/bitcoinbook/blob/develop-ro/appdx-bitcoinwhitepaper.asciidoc"
+          target="_" class="link link--light">Romanian</a>
+        <p>The original whitepaper, reproduced in its entirety exactly as it was published by Satoshi Nakamoto in
+          October 2008.
+
+        </p>
+
+
+      </div>
+      <div class="feature__item">
+        <h3 class="section__title">Bitcoin Book</h3>
+        <a href="https://github.com/bitcoinbook/bitcoinbook#chapters" target="_" class="link link--light">English</a>
+        <span>/</span>
+        <a href="https://github.com/bitcoincoretech/bitcoinbook/blob/develop-ro/pdf/book.pdf" target="_"
+          class="link link--light">Romanian</a>
+        <p><em>Mastering Bitcoin</em> is the best technical reference available on bitcoin today.</p>
+        <p data-type="attribution">Balaji S. Srinivasan (@balajis), General Partner&#x2c; Andreessen Horowitz</p>
+
+      </div>
+      <div class="feature__item">
+        <h3 class="section__title">BitcoinJS UI</h3>
+        <a href="https://bitcoincore.tech/apps/bitcoinjs-ui/index.html" target="_" class="link link--light">Web UI</a>
+        <span>/</span>
+        <a href="https://github.com/bitcoincoretech/bitcoinjs-ui" target="_" class="link link--light">Repo</a>
+        <p>A simple UI that uses the open source library <a href="https://github.com/bitcoinjs/bitcoinjs-lib"
+            class="link link--dark">bitcoinjs-lib</a>. It covers most of the <span
+            class="code code--inline">psbt.ts</span>, <span class="code code--inline">transaction.ts</span> and <span
+            class="code code--inline">p2*.ts</span> APIs.
+        </p>
+      </div>
+      <div class="feature__item">
+        <h3 class="section__title"></h3>
+        <p>
+          <br><br><br>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer class="footer">Not your keys, not your coins!</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="resources/js/scribbler.js"></script>
+</body>
+
 </html>
