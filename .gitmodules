@@ -1,3 +1,9 @@
 [submodule "apps/bitcoinjs-ui"]
 	path = apps/bitcoinjs-ui
 	url = https://github.com/bitcoincoretech/bitcoinjs-ui.git
+[submodule "apps2"]
+	path = apps2
+	url = https://github.com/bitcoincoretech/bolt11-ui.git
+[submodule "apps/bolt-11"]
+	path = apps/bolt-11
+	url = https://github.com/bitcoincoretech/bolt11-ui.git
