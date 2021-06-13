@@ -51,6 +51,6 @@ public class DynamicModulesClassPathProvider implements ClassPathProvider {
             return classpath;
         }
 
-        return null;
+        return;
     }
-}
+
