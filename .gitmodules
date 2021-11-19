@@ -4,6 +4,6 @@
 [submodule "apps/bolt11-ui"]
 	path = apps/bolt11-ui
 	url = https://github.com/bitcoincoretech/bolt11-ui.git
-[submodule "bitcoin21ro"]
-	path = bitcoin21ro
+[submodule "apps/bitcoin21ro"]
+	path = apps/bitcoin21ro
 	url = https://github.com/bitcoincoretech/bitcoin21ro.git
